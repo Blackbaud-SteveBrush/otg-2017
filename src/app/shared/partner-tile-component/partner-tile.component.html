@@ -1,27 +1,24 @@
-<div class="card-wrapper" *ngFor="let product of products">
-  <sky-card>
-    <sky-card-content>
-      <div class="partner-tile-wrapper">
-        <div class="partner-tile-header">
-          <div class="partner-tile-logo">
-            <img src="{{product.logo_url}}" alt="">
-          </div>
-          <div class="partner-tile-title">
-            <div class="partner-tile-product-name">
-              {{product.name}}
-            </div>
-            <div class="partner-tile-organization-name">
-              {{product.organization.name}}
-            </div>
-          </div>
-        </div>
-        <div class="partner-tile-description">
-          {{product.description}}
-        </div>
-        <div class="partner-tile-reviews">
-          <app-rating [value]="product.rating.value"></app-rating>
-        </div>
+<div class="app-card">
+  <header class="app-header">
+    <div class="media">
+      <div class="media-object">
+        <img src="{{app.logo_url}}" alt="">
       </div>
-    </sky-card-content>
-  </sky-card>
+      <div class="media-body">
+        <h1 class="media-heading">
+          {{app.name}}
+        </h1>
+        <h2 class="media-subheading">
+          {{app.organization.name}}
+        </h2>
+      </div>
+    </div>
+  </header>
+  <div class="app-body">
+    <p>
+      {{app.description}}
+    </p>
+    <app-rating [value]="app.rating.value">
+    </app-rating>
+  </div>
 </div>

@@ -16,6 +16,7 @@ export class HomeComponent implements OnInit {
 
   public ngOnInit() {
     this.appService.getAll().then(data => {
+      console.log(data);
       this.apps = data as Application[];
     });
   }
