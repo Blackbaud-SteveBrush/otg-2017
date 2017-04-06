@@ -6,6 +6,6 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./partner-tile.component.scss']
 })
 export class AppPartnerTileComponent {
-  @Import()
-    public products: any [];
+  @Input()
+  public products: any[];
  }

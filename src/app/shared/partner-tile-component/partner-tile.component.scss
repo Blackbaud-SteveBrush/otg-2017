@@ -41,11 +41,20 @@
       }
     }
 
-    .partner-tile-summary {
+    .partner-tile-description {
       height: 60%;
       overflow: hidden;
-      text-overflow: ellipsis;
       padding: 5px 0;
+      position: relative;
+      &:before {
+        content:'';
+        width:100%;
+        height:100%;    
+        position:absolute;
+        left:0;
+        top:0;
+        background:linear-gradient(transparent 150px, white);
+      }
     }
 
     .partner-tile-reviews {
