@@ -1,0 +1,28 @@
+<div class="card-wrapper" *ngFor="let product of products">
+  <sky-card>
+    <sky-card-content>
+      <div class="partner-tile-wrapper">
+        <div class="partner-tile-header">
+          <div class="partner-tile-logo">
+            <img src="{{product.logo_url}}" alt="">
+          </div>
+          <div class="partner-tile-title">
+            <div class="partner-tile-product-name">
+              {{product.name}}
+            </div>
+            <div class="partner-tile-organization-name">
+              {{product.orgnaization.name}}
+            </div>
+          </div>
+        </div>
+        <div class="partner-tile-description">
+          {{product.description}}
+        </div>
+        <div class="partner-tile-reviews">
+          <!--  Review Component -->
+          &#9733;&#9733;&#9733;&#9734;&#9734; (3/5)
+        </div>
+      </div>
+    </sky-card-content>
+  </sky-card>
+</div>
