@@ -7,7 +7,7 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class AppRatingComponent implements OnInit {
   @Input('value')
-  public rating: number = 0;
+  public value: number = 0;
 
   public stars: string[] = [
     'fa-star-o',
@@ -17,14 +17,14 @@ export class AppRatingComponent implements OnInit {
     'fa-star-o'
   ];
 
-  ngOnInit() {
+  public ngOnInit() {
     this.stars = this.stars.map((el, idx) => {
       let value = ++idx;
-      let isNotWhole = (this.rating % 1 !== 0);
+      let isNotWhole = (this.value % 1 !== 0);
 
-      if (this.rating >= value) {
+      if (this.value >= value) {
         return 'fa-star';
-      } else if (isNotWhole && (Math.round(this.rating) === value)) {
+      } else if (isNotWhole && (Math.round(this.value) === value)) {
         return 'fa-star-half-full';
       } else {
         return el;

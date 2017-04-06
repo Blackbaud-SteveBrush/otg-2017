@@ -1,6 +1,6 @@
-import { Application } from './application';
-import { Organization } from './organization';
-import { Rating } from './rating';
+import { Application } from './models/application';
+import { Organization } from './models/organization';
+import { Rating } from './models/rating';
 
 export const Applications: Application[] = [
     {

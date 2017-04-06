@@ -2,13 +2,13 @@ import { NgModule } from '@angular/core';
 
 import { StacheModule } from '@blackbaud/stache';
 
-import { MarketplaceDataService } from './shared/marketplaceData.service';
+import { AppService } from './shared/services/app.service';
 
 // Specify entry components, module-level providers, etc. here.
 @NgModule({
   imports: [StacheModule],
   exports: [StacheModule],
-  providers: [MarketplaceDataService],
+  providers: [AppService],
   entryComponents: []
 })
 export class AppExtrasModule { }

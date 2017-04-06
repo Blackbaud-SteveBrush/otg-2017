@@ -5,5 +5,10 @@
 </app-partner-search-bar>
 
 <stache>
-  <app-partner-tile [products]="products"></app-partner-tile>
+  <stache-row>
+    <stache-column screenSm="4" *ngFor="let app of apps">
+      <app-partner-tile [apps]="apps">
+      </app-partner-tile>
+    </stache-column>
+  </stache-row>
 </stache>

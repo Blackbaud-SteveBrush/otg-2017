@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { Application } from './shared/application';
-import { MarketplaceDataService } from './shared/marketplaceData.service';
+
+import { Application } from './shared/models/application';
+import { AppService } from './shared/services/app.service';
 
 @Component({
   selector: 'my-home',
@@ -8,11 +9,14 @@ import { MarketplaceDataService } from './shared/marketplaceData.service';
 })
 
 export class HomeComponent implements OnInit {
-  constructor(private dataService: MarketplaceDataService) { }
+  public apps: Application[] = [];
 
-  public products: Application[];
+  constructor(
+    private appService: AppService) { }
 
-  ngOnInit() {
-     this.products = this.dataService.getApplications();
+  public ngOnInit() {
+    this.appService.getAll().then(data => {
+      this.apps = data as Application[];
+    });
   }
 }
