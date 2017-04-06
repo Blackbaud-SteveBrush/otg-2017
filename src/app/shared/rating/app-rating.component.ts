@@ -24,7 +24,7 @@ export class AppRatingComponent implements OnInit {
 
       if (this.rating >= value) {
         return 'fa-star';
-      } else if (isNotWhole && (Math.ceil(this.rating) === value)) {
+      } else if (isNotWhole && (Math.round(this.rating) === value)) {
         return 'fa-star-half-full';
       } else {
         return el;

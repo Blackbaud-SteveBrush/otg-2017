@@ -19,8 +19,7 @@
           {{product.description}}
         </div>
         <div class="partner-tile-reviews">
-          <!--  Review Component -->
-          &#9733;&#9733;&#9733;&#9734;&#9734; (3/5)
+          <app-rating [value]="{{product.rating.value}}"></app-rating>
         </div>
       </div>
     </sky-card-content>
