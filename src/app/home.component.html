@@ -1,14 +1,9 @@
-<app-nav></app-nav>
-<h1>SKY UX Template</h1>
+<app-nav>
+</app-nav>
 
-<p>Welcome to the SKY UX template.  This template is dynamically cloned anytime `skyux new` is run.  For more information about SKY UX, visit the README.</p>
+<app-partner-search-bar>
+</app-partner-search-bar>
 
-<sky-alert alertType="info">
-  You've just taken your first step into a larger world.
-</sky-alert>
-<app-partner-tile [products]="products"></app-partner-tile>
-<p>
-  <a href="https://github.com/blackbaud/skyux-cli" target="_blank" rel="noopener noreferrer">
-    Learn more about SKY UX
-  </a>
-<p>
+<stache>
+  <app-partner-tile [products]="products"></app-partner-tile>
+</stache>
