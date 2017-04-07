@@ -1,33 +1,24 @@
 <sky-modal>
   <sky-modal-header>
-    <div class="header-image-container"
-    [ngStyle]="{'background-image': 'url(' + context.application.logo_url + ')' }">
-    </div>
-    <div class="header-text">
-      <h1>{{context.application.name}}</h1>
-      <h2><a href="#">{{context.application.organization.name}}</a></h2>
-    </div>
+    <stache-media [imageSrc]="context.application.logo_url" [mediaTitle]="context.application.name">
+      <h2 class="stache-media-subheading">
+        <a href="#">{{context.application.organization.name}}</a>
+      </h2>
+    </stache-media>
   </sky-modal-header>
   <sky-modal-content>
     <app-rating [value]="context.application.rating_total.value">
-    </app-rating><span class="rating-total" (click)="show()"> ({{ context.application.ratings.length }} reviews)</span>
+    </app-rating>
+    <span class="rating-total" (click)="show()"> ({{ context.application.ratings.length }} reviews)</span>
+    <p class="partner-app-detail-modal-description">
+      {{context.application.description}}
+    </p>
+    <partner-app-carousel [slides]="slides">
+    </partner-app-carousel>
     <div *ngIf="showRatings">
       <p *ngFor="let rating of context.application.ratings; let i = index;">
         {{ rating.comment}}
       </p>
     </div>
-    <hr>
-    <p>
-      {{context.application.description}}
-    </p>
-    <partner-app-carousel [slides]="slides"></partner-app-carousel>
   </sky-modal-content>
-  <sky-modal-footer>
-    <button
-      type="button"
-      class="sky-btn sky-btn-primary"
-      (click)="instance.close()">
-      Close
-    </button>
-  </sky-modal-footer>
 </sky-modal>

@@ -28,3 +28,32 @@
     cursor: pointer;
   }
 }
+
+.partner-app-detail-modal-description {
+  margin-top: 6px;
+  margin-bottom: 20px;
+}
+
+/deep/
+.stache-media-heading {
+  font-size: 2em !important;
+}
+
+/deep/
+.sky-modal {
+  border: 0 !important;
+
+  .sky-modal-header {
+    background-color: #f7f7f7 !important;
+  }
+
+  .sky-modal-header-buttons {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    > .sky-btn {
+      font-size: 1.5em;
+    }
+  }
+}

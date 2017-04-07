@@ -16,6 +16,7 @@
       float: left;
       height: 100%;
       text-align: center;
+
       img {
         max-height: 100%;
         max-width: 100%;
@@ -23,43 +24,47 @@
     }
   }
 
-    .partner-app-slide-button {
-      position: absolute;
-      bottom: 40%;
-      font-size: 3em;
-      &:hover {
-        cursor: pointer;
-      }
+  .partner-app-slide-button {
+    position: absolute;
+    bottom: 40%;
+    font-size: 2em;
+    color: #555;
+
+    &:hover {
+      cursor: pointer;
     }
-    .slide-button-left {
-      left: 0;
-    }
-    .slide-button-right {
-      right: 0;
+  }
+
+  .slide-button-left {
+    left: 0;
+  }
+
+  .slide-button-right {
+    right: 0;
+  }
+
+  .partner-app-indicator-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+
+    .partner-app-indicator-sphere {
+      display: inline-block;
+      height: 12px;
+      width: 12px;
+      border: 1px solid #555;
+      background-color: #555;
+      border-radius: 100%;
+      margin: 5px 2px 0;
+      cursor: pointer;
     }
 
-    .partner-app-indicator-list {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-      position: absolute;
-      bottom: 0;
-      width: 100%;
-      text-align: center;
-
-      .partner-app-indicator-sphere {
-        display: inline-block;
-        height: 15px;
-        width: 15px;
-        border: 3px solid #3e3e3e;
-        background-color: #3e3e3e;
-        border-radius: 100%;
-        margin: 5px 2px 0;
-        cursor: pointer;
-      }
-
-      .active-sphere {
-        background-color: white;
-      }
+    .active-sphere {
+      background-color: white;
     }
+  }
 }
