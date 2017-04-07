@@ -10,11 +10,11 @@ import { PartnerAppDetailModalContext } from './partner-app-detail-modal-context
 })
 export class PartnerAppDetailModalComponent {
   public slides: string[] = [
-    'http://vignette4.wikia.nocookie.net/metroid/images/b/ba/Metroid.jpg/revision/latest?cb=20150702055904',
-    'http://vignette4.wikia.nocookie.net/metroid/images/d/d8/Metroid4_07.jpg/revision/latest/scale-to-width-down/275?cb=20100322225155',
-    'http://metroid.retropixel.net/games/mprime/artwork/character_samus_varia_suit_05_hd.png',
-    'http://vignette1.wikia.nocookie.net/metroid/images/b/bb/Metroid_fusion.jpg/revision/latest?cb=20120706064821',
-    'https://s-media-cache-ak0.pinimg.com/originals/03/51/99/0351996bd35d904d71aad6a8b424b3d5.jpg'
+    'https://bbotgapr2017.blob.core.windows.net/samus/biznet5.png',
+    'https://bbotgapr2017.blob.core.windows.net/samus/biznet4.png',
+    'https://bbotgapr2017.blob.core.windows.net/samus/biznet3.png',
+    'https://bbotgapr2017.blob.core.windows.net/samus/biznet2.jpg',
+    'https://bbotgapr2017.blob.core.windows.net/samus/biznet1.jpg'
   ];
   public showRatings: boolean = false;
 
