@@ -1,4 +1,4 @@
-<div class="partner-tile">
+<div class="partner-tile" (click)="open()">
   <header class="partner-tile-header">
     <div class="media">
       <div class="media-object">
@@ -9,7 +9,7 @@
           {{app.name}}
         </h1>
         <h2 class="media-subheading">
-          <a href="#">{{app.organization.name}}</a>
+          {{app.organization.name}}
         </h2>
       </div>
     </div>
@@ -20,11 +20,5 @@
     </p>
     <app-rating [value]="app.rating.value">
     </app-rating>
-    <button
-      type="button"
-      class="sky-btn sky-btn-primary"
-      (click)="open()">
-      View Details
-    </button>
   </div>
 </div>
