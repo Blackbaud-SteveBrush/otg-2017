@@ -1,16 +1,28 @@
 <app-nav>
 </app-nav>
 
-  <sky-toolbar>
-    <sky-toolbar-item class="sky-container">
-      <sky-search
-        [placeholderText]="'Search the Apps'"
-        [searchText]="searchText"
-        (searchApply)="searchApplied($event)"
-        >
-      </sky-search>
-    </sky-toolbar-item>
-  </sky-toolbar>
+<div class="stache-hero-override">
+  <stache-hero backgroundImageUrl="https://bbotgapr2017.blob.core.windows.net/samus/GettyImages-532133744.jpg">
+  <stache-hero-heading>
+      Extend your reach.
+    </stache-hero-heading>
+    <stache-hero-subheading>
+      <img src="~/assets/chevron-green.svg" alt=""><span class="hero-bb-span">Blackbaud</span> Partner MarketPlace
+    </stache-hero-subheading>
+  </stache-hero>
+</div>
+
+<sky-toolbar>
+  <sky-toolbar-item class="sky-container">
+    <sky-search
+      [placeholderText]="'Search the Apps'"
+      [searchText]="searchText"
+      (searchApply)="searchApplied($event)"
+      >
+    </sky-search>
+  </sky-toolbar-item>
+</sky-toolbar>
+
 <stache>
   <stache-row>
     <stache-column screenSmall="4" *ngFor="let app of displayedApps">

@@ -9,3 +9,38 @@
 .stache-column {
   padding-bottom: 30px;
 }
+
+.stache-hero-override {
+  .stache-hero {
+    .stache-hero-body {
+      max-width: 100%;
+
+      h1.stache-hero-heading {
+        font-size: 3.5em;
+        font-family: 'Open sans';
+        font-weight: 200;
+      }
+
+      h2.stache-hero-subheading {
+        font-size: 1.5em;
+        font-weight: 100;
+
+        span.hero-bb-span {
+          font-weight: 100;
+        }
+
+      }
+
+      img {
+        height: 1em;
+        vertical-align: top;
+        margin-right: 5px;
+      }
+    }
+    .stache-hero-overlay {
+      opacity: 0.5;
+    }
+  }
+}
+
+
