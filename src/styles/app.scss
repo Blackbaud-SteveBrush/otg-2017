@@ -12,7 +12,19 @@
 
 .stache-hero-override {
   .stache-hero {
-    background-position-y: -265px !important;
+     background-position-y: -400px !important;
+    @media (max-width: 1850px) {
+      background-position-y: -400px !important;
+    }
+    @media (max-width: 1700px) {
+      background-position-y: -330px !important;
+    }
+    @media (max-width: 1500px) {
+      background-position-y: -285px !important;
+    }
+    @media (max-width: 1350px) {
+      background-position-y: -250px !important;
+    }
     @media (max-width: 1199px) {
       background-position-y: -200px !important;
     }
