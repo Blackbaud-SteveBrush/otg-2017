@@ -1,0 +1,30 @@
+@import '../../../../node_modules/@blackbaud/stache/src/styles/_variables.scss';
+
+.header-image-container {
+  width: 20%;
+  height: 50px;
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
+}
+
+.header-text {
+  width: 77%;
+  display: inline-block;
+  margin-left: 2%;
+  h1 {
+    font-size: 26px;
+    margin-top: 0;
+    margin-bottom: 5px;
+  }
+  h2 {
+    font-size: 16px;
+  }
+}
+
+.rating-total {
+  color: $stache-color-link;
+  &:hover {
+    cursor: pointer;
+  }
+}

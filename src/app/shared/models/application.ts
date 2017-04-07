@@ -7,5 +7,6 @@ export class Application {
   public description: string;
   public logo_url: string;
   public organization: Organization;
-  public rating: Rating;
+  public rating_total: Rating;
+  public ratings: Rating[];
 }

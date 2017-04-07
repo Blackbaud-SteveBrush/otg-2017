@@ -10,7 +10,6 @@ import {
 
 require('style!../styles/app.scss');
 
-
 // Specify entry components, module-level providers, etc. here.
 @NgModule({
   imports: [
