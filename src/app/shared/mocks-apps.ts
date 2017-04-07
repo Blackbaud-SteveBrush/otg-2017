@@ -10,7 +10,8 @@ export const Applications: Application[] = [
       logo_url: 'https://bbotgapr2017.blob.core.windows.net/samus/biznet.png',
       organization: new Organization(1, 'BizNetsoftware (Connecting Your World to Excel)'),
       rating_total: new Rating(null, null, 4),
-      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)]
+      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)],
+      mine: false
     },
     {
       id: 2,
@@ -19,7 +20,8 @@ export const Applications: Application[] = [
       logo_url: 'https://bbotgapr2017.blob.core.windows.net/samus/maxxvault.png',
       organization: new Organization(2, 'MaxxVault'),
       rating_total: new Rating(null, null, 4.5),
-      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)]
+      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)],
+      mine: false
     },
     {
       id: 3,
@@ -28,7 +30,8 @@ export const Applications: Application[] = [
       logo_url: 'https://bbotgapr2017.blob.core.windows.net/samus/volunteerhub.png',
       organization: new Organization(3, 'Carr Engineering, Inc.'),
       rating_total: new Rating(null, null, 5),
-      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)]
+      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)],
+      mine: true
     },
     {
       id: 4,
@@ -37,7 +40,8 @@ export const Applications: Application[] = [
       logo_url: 'https://bbotgapr2017.blob.core.windows.net/samus/smartthing.png',
       organization: new Organization(4, 'SmartTHING'),
       rating_total: new Rating(null, null, 4),
-      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)]
+      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)],
+      mine: false
     },
     {
       id: 5,
@@ -46,7 +50,8 @@ export const Applications: Application[] = [
       logo_url: 'https://bbotgapr2017.blob.core.windows.net/samus/aluminati.png',
       organization: new Organization(5, 'Aluminati Network Group'),
       rating_total: new Rating(null, null, 4.5),
-      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)]
+      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)],
+      mine: false
     },
     {
       id: 6,
@@ -55,7 +60,8 @@ export const Applications: Application[] = [
       logo_url: 'https://bbotgapr2017.blob.core.windows.net/samus/aluminati.png',
       organization: new Organization(5, 'Aluminati Network Group'),
       rating_total: new Rating(null, null, 5),
-      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)]
+      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)],
+      mine: false
     },
     {
       id: 7,
@@ -64,7 +70,8 @@ export const Applications: Application[] = [
       logo_url: 'https://bbotgapr2017.blob.core.windows.net/samus/aluminati.png',
       organization: new Organization(5, 'Aluminati Network Group'),
       rating_total: new Rating(null, null, 4),
-      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)]
+      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)],
+      mine: false
     },
     {
       id: 8,
@@ -73,7 +80,8 @@ export const Applications: Application[] = [
       logo_url: 'https://bbotgapr2017.blob.core.windows.net/samus/PEX.png',
       organization: new Organization(6, 'Prepaid Expense Card Solutions, Inc.'),
       rating_total: new Rating(null, null, 4.5),
-      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)]
+      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)],
+      mine: false
     },
     {
       id: 9,
@@ -82,7 +90,8 @@ export const Applications: Application[] = [
       logo_url: 'https://bbotgapr2017.blob.core.windows.net/samus/smartthing.png',
       organization: new Organization(4, 'SmartTHING'),
       rating_total: new Rating(null, null, 5),
-      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)]
+      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)],
+      mine: false
     },
     {
       id: 10,
@@ -91,7 +100,8 @@ export const Applications: Application[] = [
       logo_url: 'https://bbotgapr2017.blob.core.windows.net/samus/museumanywhere.png',
       organization: new Organization(7, 'Museum Anywhere'),
       rating_total: new Rating(null, null, 4),
-      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)]
+      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)],
+      mine: false
     },
     {
       id: 11,
@@ -100,7 +110,8 @@ export const Applications: Application[] = [
       logo_url: 'https://bbotgapr2017.blob.core.windows.net/samus/zeidman.png',
       organization: new Organization(8, 'Zeidman Development'),
       rating_total: new Rating(null, null, 4.5),
-      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)]
+      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)],
+      mine: false
     },
     {
       id: 12,
@@ -109,7 +120,8 @@ export const Applications: Application[] = [
       logo_url: 'https://bbotgapr2017.blob.core.windows.net/samus/smartthing.png',
       organization: new Organization(4, 'SmartTHING'),
       rating_total: new Rating(null, null, 5),
-      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)]
+      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)],
+      mine: false
     },
     {
       id: 13,
@@ -118,7 +130,8 @@ export const Applications: Application[] = [
       logo_url: 'https://bbotgapr2017.blob.core.windows.net/samus/smartthing.png',
       organization: new Organization(4, 'SmartTHING'),
       rating_total: new Rating(null, null, 4),
-      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)]
+      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)],
+      mine: false
     },
     {
       id: 14,
@@ -127,7 +140,8 @@ export const Applications: Application[] = [
       logo_url: 'https://bbotgapr2017.blob.core.windows.net/samus/smartthing.png',
       organization: new Organization(4, 'SmartTHING'),
       rating_total: new Rating(null, null, 4.5),
-      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)]
+      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)],
+      mine: false
     },
     {
       id: 15,
@@ -136,7 +150,8 @@ export const Applications: Application[] = [
       logo_url: 'https://bbotgapr2017.blob.core.windows.net/samus/%40pay.png',
       organization: new Organization(9, '@pay LLC'),
       rating_total: new Rating(null, null, 5),
-      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)]
+      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)],
+      mine: false
     },
     {
       id: 16,
@@ -145,7 +160,8 @@ export const Applications: Application[] = [
       logo_url: 'https://bbotgapr2017.blob.core.windows.net/samus/omatic.png',
       organization: new Organization(10, 'Omatic Software'),
       rating_total: new Rating(null, null, 4),
-      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)]
+      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)],
+      mine: false
     },
     {
       id: 17,
@@ -154,7 +170,8 @@ export const Applications: Application[] = [
       logo_url: 'https://bbotgapr2017.blob.core.windows.net/samus/jca.png',
       organization: new Organization(11, 'JCA Consulting '),
       rating_total: new Rating(null, null, 4.5),
-      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)]
+      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)],
+      mine: false
     },
     {
       id: 18,
@@ -163,7 +180,8 @@ export const Applications: Application[] = [
       logo_url: 'https://bbotgapr2017.blob.core.windows.net/samus/JMGsolutions.png',
       organization: new Organization(12, 'JMG Solutions'),
       rating_total: new Rating(null, null, 5),
-      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)]
+      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)],
+      mine: false
     },
     {
       id: 19,
@@ -172,7 +190,8 @@ export const Applications: Application[] = [
       logo_url: 'https://bbotgapr2017.blob.core.windows.net/samus/evertrue.png',
       organization: new Organization(13, 'EverTrue, Inc.'),
       rating_total: new Rating(null, null, 4),
-      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)]
+      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)],
+      mine: false
     },
     {
       id: 20,
@@ -181,7 +200,8 @@ export const Applications: Application[] = [
       logo_url: 'https://bbotgapr2017.blob.core.windows.net/samus/zeidman.png',
       organization: new Organization(8, 'Zeidman Development'),
       rating_total: new Rating(null, null, 4.5),
-      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)]
+      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)],
+      mine: false
     },
     {
       id: 21,
@@ -190,7 +210,8 @@ export const Applications: Application[] = [
       logo_url: 'https://bbotgapr2017.blob.core.windows.net/samus/zeidman.png',
       organization: new Organization(8, 'Zeidman Development'),
       rating_total: new Rating(null, null, 5),
-      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)]
+      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)],
+      mine: false
     },
     {
       id: 22,
@@ -199,7 +220,8 @@ export const Applications: Application[] = [
       logo_url: 'https://bbotgapr2017.blob.core.windows.net/samus/papersave.png',
       organization: new Organization(14, 'PaperSave'),
       rating_total: new Rating(null, null, 4),
-      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)]
+      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)],
+      mine: false
     },
     {
       id: 23,
@@ -208,7 +230,8 @@ export const Applications: Application[] = [
       logo_url: 'https://bbotgapr2017.blob.core.windows.net/samus/ezescan.png',
       organization: new Organization(15, 'Outback Imaging LLC'),
       rating_total: new Rating(null, null, 4.5),
-      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)]
+      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)],
+      mine: false
     },
     {
       id: 24,
@@ -217,7 +240,8 @@ export const Applications: Application[] = [
       logo_url: 'https://bbotgapr2017.blob.core.windows.net/samus/smartthing.png',
       organization: new Organization(4, 'SmartTHING'),
       rating_total: new Rating(null, null, 5),
-      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)]
+      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)],
+      mine: false
     },
     {
       id: 25,
@@ -226,7 +250,8 @@ export const Applications: Application[] = [
       logo_url: 'https://bbotgapr2017.blob.core.windows.net/samus/itexts.png',
       organization: new Organization(16, 'I-texts, Inc.'),
       rating_total: new Rating(null, null, 4.5),
-      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)]
+      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)],
+      mine: false
     },
     {
       id: 26,
@@ -235,7 +260,8 @@ export const Applications: Application[] = [
       logo_url: 'https://bbotgapr2017.blob.core.windows.net/samus/actionsprout.png',
       organization: new Organization(17, 'ActionSprout'),
       rating_total: new Rating(null, null, 5),
-      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)]
+      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)],
+      mine: false
     },
     {
       id: 27,
@@ -244,7 +270,8 @@ export const Applications: Application[] = [
       logo_url: 'https://bbotgapr2017.blob.core.windows.net/samus/advizor.png',
       organization: new Organization(18, 'ADVIZOR Solutions, Inc.'),
       rating_total: new Rating(null, null, 4),
-      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)]
+      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)],
+      mine: false
     },
     {
       id: 28,
@@ -253,7 +280,8 @@ export const Applications: Application[] = [
       logo_url: 'https://bbotgapr2017.blob.core.windows.net/samus/boldtypenews.png',
       organization: new Organization(19, 'BoldType News, Inc.'),
       rating_total: new Rating(null, null, 4.5),
-      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)]
+      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)],
+      mine: false
     },
     {
       id: 29,
@@ -262,7 +290,8 @@ export const Applications: Application[] = [
       logo_url: 'https://bbotgapr2017.blob.core.windows.net/samus/halo.png',
       organization: new Organization(20, 'HALO Branded Solutions'),
       rating_total: new Rating(null, null, 5),
-      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)]
+      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)],
+      mine: false
     },
     {
       id: 30,
@@ -271,15 +300,17 @@ export const Applications: Application[] = [
       logo_url: 'https://bbotgapr2017.blob.core.windows.net/samus/postcard.png',
       organization: new Organization(21, 'Postcard'),
       rating_total: new Rating(null, null, 4.5),
-      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)]
+      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)],
+      mine: true
     },
     {
-      id: 31,
+      id: 50,
       name: 'Automated Calling Software',
       description: 'Automated Calling Software provides an automated calling service that saves nonprofits the time, headaches, and stress associated with contacting all of the constituents on their list.',
       logo_url: 'https://bbotgapr2017.blob.core.windows.net/samus/callemall.png',
       organization: new Organization(22, 'Call-Em-All'),
       rating_total: new Rating(null, null, 5),
-      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)]
+      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)],
+      mine: false
      }
 ];

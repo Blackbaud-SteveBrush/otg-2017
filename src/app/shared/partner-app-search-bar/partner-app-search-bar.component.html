@@ -2,6 +2,11 @@
   <div class="sky-container">
     <sky-toolbar-section>
       <sky-toolbar-item>
+        <sky-toolbar-item>
+          <button type="button" class="sky-btn sky-btn-primary" (click)="openModal('defaultModal')">
+            Add application
+          </button>
+        </sky-toolbar-item>
         <sky-search
           [searchText]="searchText"
           [placeholderText]="'Search the marketplace'"

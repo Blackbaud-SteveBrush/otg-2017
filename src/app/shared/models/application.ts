@@ -9,4 +9,5 @@ export class Application {
   public organization: Organization;
   public rating_total: Rating;
   public ratings: Rating[];
+  public mine: boolean = false;
 }
