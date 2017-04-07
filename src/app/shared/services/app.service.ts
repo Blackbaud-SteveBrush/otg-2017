@@ -11,7 +11,7 @@ export class AppService {
     });
   }
 
-  public getBy(appId) {
+  public getById(appId) {
     let apps: any[] = JSON.parse(localStorage.getItem('apps')) || Applications;
     return new Promise(good => {
       let foundApp = apps.filter(app => app.id === appId);

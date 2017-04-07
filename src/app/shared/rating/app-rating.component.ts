@@ -6,7 +6,7 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrls: ['./app-rating.component.scss']
 })
 export class AppRatingComponent implements OnInit {
-  @Input('value')
+  @Input()
   public value: number = 0;
 
   public stars: string[] = [

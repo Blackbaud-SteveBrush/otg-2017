@@ -7,7 +7,7 @@
 <stache>
   <stache-row>
     <stache-column screenSmall="3" *ngFor="let app of apps">
-      <app-partner-tile [app]="app">
+      <app-partner-tile [app]="app" (openModal)="onOpenModal($event)">
       </app-partner-tile>
     </stache-column>
   </stache-row>

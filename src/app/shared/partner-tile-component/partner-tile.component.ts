@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, EventEmitter, Input, Output } from '@angular/core';
 
 @Component({
   selector: 'app-partner-tile',
@@ -8,4 +8,11 @@ import { Component, Input } from '@angular/core';
 export class AppPartnerTileComponent {
   @Input()
   public app: any;
+
+  @Output()
+  public openModal: EventEmitter<number> = new EventEmitter<number>();
+
+  public open() {
+    this.openModal.emit(this.app.id);
+  }
 }

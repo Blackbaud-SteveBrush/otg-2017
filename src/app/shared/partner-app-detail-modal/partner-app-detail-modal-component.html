@@ -1,0 +1,17 @@
+<sky-modal>
+  <sky-modal-header>
+    {{context.title}}
+  </sky-modal-header>
+  <sky-modal-content>
+    <app-rating [value]="context.rating">
+    </app-rating>
+  </sky-modal-content>
+  <sky-modal-footer>
+    <button
+      type="button"
+      class="sky-btn sky-btn-primary"
+      (click)="instance.close()">
+      Close
+    </button>
+  </sky-modal-footer>
+</sky-modal>
