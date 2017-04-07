@@ -7,5 +7,5 @@ import { Component, Input } from '@angular/core';
 })
 export class AppPartnerTileComponent {
   @Input()
-  public app: any[];
- }
+  public app: any;
+}

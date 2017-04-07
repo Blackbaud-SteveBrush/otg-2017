@@ -1,4 +1,7 @@
 {
   "mode": "easy",
-  "compileMode": "aot"
+  "compileMode": "aot",
+  "omnibar": {
+    "serviceName": "Partner Marketplace"
+  }
 }

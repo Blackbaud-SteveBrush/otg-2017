@@ -1,62 +1,71 @@
-/deep/
-.card-wrapper {
-  .sky-card-content  {
-    height: 100%;
+.partner-tile {
+  background-color: #fff;
+  height: 100%;
+  margin-bottom: 15px;
+  border-radius: 3px;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.25);
+
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
   }
+}
 
-  .partner-tile-wrapper {
-    height: 100%;
-    
-    .partner-tile-header {
-      width: 100%;
-      display: flex;
-      height: 26%;
-      margin-bottom: 10px;
+.partner-tile-header {
+  padding: 10px 15px;
+}
 
-      .partner-tile-logo {
-        width: 30%;
+.partner-tile-body {
+  padding: 0 15px 10px;
+}
 
-        img {
-          max-width: 100%;
-          max-height: 100%;
-        }
-      }
+.partner-tile-description {
+  position: relative;
+  height: 150px;
+  overflow: hidden;
 
-      .partner-tile-title {
-        width: 70%;
-        padding-left: 20px;
+  &:before {
+    content: '';
+    width: 100%;
+    height: 100%;    
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: linear-gradient(transparent 100px, white);
+  }
+}
 
-        .partner-tile-product-name {
-          font-size: 2em;
-          font-weight: 300;
-          font-family: Oswald;
-        }
+.media {
+  display: flex;
+}
 
-        .partner-tile-organization-name {
-          font-weight: 100;
-          font: Oswald;
-        }
-      }
-    }
+.media-object {
+  width: 70px;
+  height: 70px;
+  overflow: hidden;
+}
 
-    .partner-tile-description {
-      height: 60%;
-      overflow: hidden;
-      padding: 5px 0;
-      position: relative;
-      &:before {
-        content:'';
-        width:100%;
-        height:100%;    
-        position:absolute;
-        left:0;
-        top:0;
-        background:linear-gradient(transparent 150px, white);
-      }
-    }
+.media-thumbnail {
+  width: 100%;
+  height: auto;
+}
 
-    .partner-tile-reviews {
-      margin: 10px;
-    }
+.media-body {
+  padding-left: 15px;
+}
+
+.media-heading {
+  margin: 14px 0 4px;
+  font-size: 24px;
+}
+
+.media-subheading {
+  margin: 0;
+  font-size: 14px;
+  font-weight: bold;
+
+  > a {
+
   }
 }
