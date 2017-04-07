@@ -31,6 +31,10 @@ export class HomeComponent implements OnInit {
     });
   }
 
+  public filterButtonClicked() {
+    alert('Filters coming Spring 2018!');
+  }
+
   public onOpenModal(event) {
     let application = this.apps.filter(el => el.id === event)[0];
     let context = new PartnerAppDetailModalContext();
