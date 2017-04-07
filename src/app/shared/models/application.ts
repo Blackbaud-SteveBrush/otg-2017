@@ -10,4 +10,5 @@ export class Application {
   public tags: string[];
   public rating_total: Rating;
   public ratings: Rating[];
+  public mine: boolean = false;
 }

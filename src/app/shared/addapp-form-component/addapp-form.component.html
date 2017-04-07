@@ -1,0 +1,34 @@
+<sky-modal>
+  <sky-modal-header>
+    {{title}}
+  </sky-modal-header>
+  <sky-modal-content>
+    <div class="addapp-form-group">
+      <label>
+        Name
+      </label>
+      <input type="text" [(ngModel)]="context.name" required />
+    </div>
+    <div class="addapp-form-group">
+      <label>
+        Description
+      </label>
+      <textarea type="text" [(ngModel)]="context.description" rows="3" required></textarea>
+    </div>
+    <div class="addapp-form-group">
+      <label class="form-label">
+        Logo Url
+      </label>
+      <input type="text" [(ngModel)]="context.logo_url" required />
+    </div>
+  </sky-modal-content>
+  <sky-modal-footer>
+    <button
+      type="button"
+      class="sky-btn sky-btn-primary"
+      (click)="save()"
+    >
+      Save
+    </button>
+  </sky-modal-footer>
+</sky-modal>

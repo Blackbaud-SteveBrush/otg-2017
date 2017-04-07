@@ -15,7 +15,8 @@ export const Applications: Application[] = [
         'Analytics'
       ],
       rating_total: new Rating(null, null, 4),
-      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)]
+      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)],
+      mine: false
     },
     {
       id: 2,
@@ -29,7 +30,8 @@ export const Applications: Application[] = [
         'Some Tag'
       ],
       rating_total: new Rating(null, null, 4.5),
-      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)]
+      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)],
+      mine: false
     },
     {
       id: 3,
@@ -43,7 +45,8 @@ export const Applications: Application[] = [
         'constituents'
       ],
       rating_total: new Rating(null, null, 5),
-      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)]
+      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)],
+      mine: true
     },
     {
       id: 4,
@@ -57,7 +60,8 @@ export const Applications: Application[] = [
         'constituents'
       ],
       rating_total: new Rating(null, null, 4),
-      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)]
+      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)],
+      mine: false
     },
     {
       id: 5,
@@ -71,7 +75,8 @@ export const Applications: Application[] = [
         'Some Tag'
       ],
       rating_total: new Rating(null, null, 4.5),
-      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)]
+      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)],
+      mine: false
     },
     {
       id: 6,
@@ -85,7 +90,8 @@ export const Applications: Application[] = [
         'Some Tag'
       ],
       rating_total: new Rating(null, null, 5),
-      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)]
+      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)],
+      mine: false
     },
     {
       id: 7,
@@ -99,7 +105,8 @@ export const Applications: Application[] = [
         'Some Tag'
       ],
       rating_total: new Rating(null, null, 4),
-      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)]
+      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)],
+      mine: false
     },
     {
       id: 8,
@@ -113,7 +120,8 @@ export const Applications: Application[] = [
         'Some Tag'
       ],
       rating_total: new Rating(null, null, 4.5),
-      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)]
+      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)],
+      mine: false
     },
     {
       id: 9,
@@ -127,7 +135,8 @@ export const Applications: Application[] = [
         'Some Tag'
       ],
       rating_total: new Rating(null, null, 5),
-      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)]
+      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)],
+      mine: false
     },
     {
       id: 10,
@@ -141,7 +150,8 @@ export const Applications: Application[] = [
         'Some Tag'
       ],
       rating_total: new Rating(null, null, 4),
-      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)]
+      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)],
+      mine: false
     },
     {
       id: 11,
@@ -155,7 +165,8 @@ export const Applications: Application[] = [
         'Some Tag'
       ],
       rating_total: new Rating(null, null, 4.5),
-      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)]
+      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)],
+      mine: false
     },
     {
       id: 12,
@@ -169,7 +180,8 @@ export const Applications: Application[] = [
         'Some Tag'
       ],
       rating_total: new Rating(null, null, 5),
-      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)]
+      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)],
+      mine: false
     },
     {
       id: 13,
@@ -183,7 +195,8 @@ export const Applications: Application[] = [
         'Some Tag'
       ],
       rating_total: new Rating(null, null, 4),
-      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)]
+      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)],
+      mine: false
     },
     {
       id: 14,
@@ -197,7 +210,8 @@ export const Applications: Application[] = [
         'Some Tag'
       ],
       rating_total: new Rating(null, null, 4.5),
-      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)]
+      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)],
+      mine: false
     },
     {
       id: 15,
@@ -211,7 +225,8 @@ export const Applications: Application[] = [
         'Some Tag'
       ],
       rating_total: new Rating(null, null, 5),
-      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)]
+      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)],
+      mine: false
     },
     {
       id: 16,
@@ -225,7 +240,8 @@ export const Applications: Application[] = [
         'Some Tag'
       ],
       rating_total: new Rating(null, null, 4),
-      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)]
+      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)],
+      mine: false
     },
     {
       id: 17,
@@ -239,7 +255,8 @@ export const Applications: Application[] = [
         'Some Tag'
       ],
       rating_total: new Rating(null, null, 4.5),
-      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)]
+      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)],
+      mine: false
     },
     {
       id: 18,
@@ -253,7 +270,8 @@ export const Applications: Application[] = [
         'Some Tag'
       ],
       rating_total: new Rating(null, null, 5),
-      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)]
+      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)],
+      mine: false
     },
     {
       id: 19,
@@ -267,7 +285,8 @@ export const Applications: Application[] = [
         'Some Tag'
       ],
       rating_total: new Rating(null, null, 4),
-      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)]
+      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)],
+      mine: false
     },
     {
       id: 20,
@@ -281,7 +300,8 @@ export const Applications: Application[] = [
         'Some Tag'
       ],
       rating_total: new Rating(null, null, 4.5),
-      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)]
+      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)],
+      mine: false
     },
     {
       id: 21,
@@ -295,7 +315,8 @@ export const Applications: Application[] = [
         'Some Tag'
       ],
       rating_total: new Rating(null, null, 5),
-      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)]
+      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)],
+      mine: false
     },
     {
       id: 22,
@@ -309,7 +330,8 @@ export const Applications: Application[] = [
         'Some Tag'
       ],
       rating_total: new Rating(null, null, 4),
-      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)]
+      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)],
+      mine: false
     },
     {
       id: 23,
@@ -323,7 +345,8 @@ export const Applications: Application[] = [
         'Some Tag'
       ],
       rating_total: new Rating(null, null, 4.5),
-      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)]
+      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)],
+      mine: false
     },
     {
       id: 24,
@@ -337,7 +360,8 @@ export const Applications: Application[] = [
         'Some Tag'
       ],
       rating_total: new Rating(null, null, 5),
-      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)]
+      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)],
+      mine: false
     },
     {
       id: 25,
@@ -351,7 +375,8 @@ export const Applications: Application[] = [
         'Some Tag'
       ],
       rating_total: new Rating(null, null, 4.5),
-      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)]
+      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)],
+      mine: false
     },
     {
       id: 26,
@@ -365,7 +390,8 @@ export const Applications: Application[] = [
         'Some Tag'
       ],
       rating_total: new Rating(null, null, 5),
-      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)]
+      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)],
+      mine: false
     },
     {
       id: 27,
@@ -379,7 +405,8 @@ export const Applications: Application[] = [
         'Some Tag'
       ],
       rating_total: new Rating(null, null, 4),
-      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)]
+      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)],
+      mine: false
     },
     {
       id: 28,
@@ -393,7 +420,8 @@ export const Applications: Application[] = [
         'Some Tag'
       ],
       rating_total: new Rating(null, null, 4.5),
-      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)]
+      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)],
+      mine: false
     },
     {
       id: 29,
@@ -407,7 +435,8 @@ export const Applications: Application[] = [
         'Some Tag'
       ],
       rating_total: new Rating(null, null, 5),
-      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)]
+      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)],
+      mine: false
     },
     {
       id: 30,
@@ -421,10 +450,11 @@ export const Applications: Application[] = [
         'Some Tag'
       ],
       rating_total: new Rating(null, null, 4.5),
-      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)]
+      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)],
+      mine: true
     },
     {
-      id: 31,
+      id: 50,
       name: 'Automated Calling Software',
       description: 'Automated Calling Software provides an automated calling service that saves nonprofits the time, headaches, and stress associated with contacting all of the constituents on their list.',
       logo_url: 'https://bbotgapr2017.blob.core.windows.net/samus/callemall.png',
@@ -435,6 +465,7 @@ export const Applications: Application[] = [
         'Some Tag'
       ],
       rating_total: new Rating(null, null, 5),
-      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)]
+      ratings: [new Rating(null, "This is a super sweet app!", 4), new Rating(null, "This app is ok, but I've seen better.", 2.5), new Rating(null, "This app is literally garbage. If I could, I would throw it in the trash can.", 1)],
+      mine: false
      }
 ];

@@ -8,6 +8,8 @@ import {
   PartnerAppDetailModalComponent
 } from './shared/partner-app-detail-modal/partner-app-detail-modal.component';
 
+import { AddAppFormComponent } from './shared/addapp-form-component/addapp-form.component';
+
 require('style!../styles/app.scss');
 
 // Specify entry components, module-level providers, etc. here.
@@ -22,7 +24,9 @@ require('style!../styles/app.scss');
     AppService
   ],
   entryComponents: [
-    PartnerAppDetailModalComponent
+    PartnerAppDetailModalComponent,
+    AddAppFormComponent
   ]
+
 })
 export class AppExtrasModule { }
