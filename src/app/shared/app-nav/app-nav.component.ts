@@ -8,12 +8,12 @@ import { Component } from '@angular/core';
 export class AppNavComponent {
   public nav = [
     {
-      name: 'Home',
+      name: 'Marketplace',
       path: '/'
     },
     {
-      name: 'About',
-      path: '/about'
+      name: 'My Apps',
+      path: '/my-apps'
     }
   ];
 }
