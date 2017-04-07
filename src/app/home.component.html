@@ -1,12 +1,18 @@
 <app-nav>
 </app-nav>
 
-<app-partner-search-bar>
-</app-partner-search-bar>
-
+  <sky-toolbar>
+    <sky-toolbar-item class="sky-container">
+      <sky-search
+        [searchText]="searchText"
+        (searchApply)="searchApplied($event)"
+        >
+      </sky-search>
+    </sky-toolbar-item>
+  </sky-toolbar>
 <stache>
   <stache-row>
-    <stache-column screenSmall="3" *ngFor="let app of apps">
+    <stache-column screenSmall="3" *ngFor="let app of displayedApps">
       <app-partner-tile [app]="app" (openModal)="onOpenModal($event)">
       </app-partner-tile>
     </stache-column>

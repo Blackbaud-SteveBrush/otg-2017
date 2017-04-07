@@ -17,6 +17,8 @@ import {
 })
 export class HomeComponent implements OnInit {
   public apps: Application[] = [];
+  public displayedApps: Application[] = [];
+  public searchText: string;
 
   constructor(
     private appService: AppService,
@@ -25,6 +27,7 @@ export class HomeComponent implements OnInit {
   public ngOnInit() {
     this.appService.getAll().then(data => {
       this.apps = data as Application[];
+      this.displayedApps = data as Application[];
     });
   }
 
@@ -41,5 +44,27 @@ export class HomeComponent implements OnInit {
     modalInstance.closed.subscribe((result: SkyModalCloseArgs) => {
       console.log('Modal closed with reason: ' + result.reason + ' and data: ' + result.data);
     });
+  }
+
+  public searchApplied(searchText: string) {
+    let filteredApps = this.apps;
+    this.searchText = searchText;
+    if (searchText) {
+      filteredApps = this.apps.filter(function (app: any) {
+          let property: any;
+          for (property in app) {
+              if (
+                app.hasOwnProperty(property) &&
+                (property === 'name' || property === 'description')
+              ) {
+                if (app[property].toLowerCase().indexOf(searchText.toLowerCase()) > -1) {
+                    return true;
+                }
+              }
+          }
+          return false;
+      });
+    }
+    this.displayedApps = filteredApps;
   }
 }
