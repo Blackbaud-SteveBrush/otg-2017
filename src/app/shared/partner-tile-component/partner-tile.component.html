@@ -1,24 +1,18 @@
 <div class="partner-tile" (click)="open()">
   <header class="partner-tile-header">
-    <div class="media">
-      <div class="media-object">
-        <img class="media-thumbnail" src="{{app.logo_url}}" alt="">
-      </div>
-      <div class="media-body">
-        <h1 class="media-heading">
-          {{app.name}}
-        </h1>
-        <h2 class="media-subheading">
-          {{app.organization.name}}
-        </h2>
-      </div>
-    </div>
+    <stache-media [imageSrc]="app.logo_url" [mediaTitle]="app.name">
+      <h2 class="stache-media-subheading">
+        {{app.organization.name}}
+      </h2>
+    </stache-media>
   </header>
   <div class="partner-tile-body">
     <p class="partner-tile-description">
       {{app.description}}
     </p>
-    <app-rating [value]="app.rating_total.value">
-    </app-rating>
+    <div class="partner-tile-rating">
+      <app-rating [value]="app.rating_total.value">
+      </app-rating>
+    </div>
   </div>
 </div>

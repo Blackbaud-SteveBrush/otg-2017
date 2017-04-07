@@ -1,0 +1,35 @@
+.stache-media {
+  display: flex;
+}
+
+.stache-media-object {
+  width: 30%;
+  max-width: 120px;
+}
+
+.stache-media-thumbnail {
+  display: block;
+  width: 100%;
+  height: auto;
+  padding: 5px;
+  background-color: #fff;
+  border-radius: 8px;
+  border: 1px solid #eee;
+}
+
+.stache-media-body {
+  padding-left: 8px;
+  width: 60%;
+}
+
+.stache-media-heading {
+  margin: 10px 0 0;
+  font-size: 1.6em;
+}
+
+/deep/
+.stache-media-subheading {
+  margin-top: 6px;
+  font-size: 13px;
+  font-weight: bold;
+}

@@ -6,9 +6,13 @@
     list-style-image: none;
     margin: 0;
     padding: 0;
+
     li {
-      color: goldenrod;
+      color: #71bf43;
       display: inline-block;
+      & + li {
+        margin-left: 2px;
+      }
     }
   }
 }
