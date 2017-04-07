@@ -1,0 +1,37 @@
+<div class="partner-app-carousel-container">
+
+  <!-- images -->
+  <div 
+    class="partner-app-image-wrapper" 
+    [style.width]="slidesContainerWidth" 
+    [style.left]="'-'+ slideIndex +'00%'">
+    <div
+      class="partner-app-image-option"
+      *ngFor="let slide of slides; let idx = index" id="{{idx}}"
+      [style.width]="slidesWidth">
+      <img src="{{slide}}" alt="">
+    </div>
+  </div>
+
+  <!-- Slide buttons forward/Next -->
+  <div
+    class="partner-app-slide-button slide-button-left" 
+    (click)="changeCurrentIndex(slideIndex - 1)">
+    <i class="fa fa-chevron-left"></i>
+  </div>
+  <div 
+    class="partner-app-slide-button slide-button-right" 
+    (click)="changeCurrentIndex(slideIndex + 1)">
+    <i class="fa fa-chevron-right"></i>
+  </div>
+
+  <!-- indicator -->
+  <ul class="partner-app-indicator-list">
+    <li 
+      class="partner-app-indicator-sphere" 
+      *ngFor="let slide of slides; let idx = index;" 
+      (click)="changeCurrentIndex(idx)" 
+      [ngClass]="{'active-sphere' : idx === slideIndex }">
+    </li>
+  </ul>
+</div>
