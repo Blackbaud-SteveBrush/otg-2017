@@ -16,7 +16,8 @@
   <sky-toolbar-item class="sky-container">
     <sky-search
       [placeholderText]="'Search the marketplace'"
-      >
+      [searchText]="searchText"
+      (searchApply)="searchApplied($event)">
     </sky-search>
   </sky-toolbar-item>
 </sky-toolbar>
