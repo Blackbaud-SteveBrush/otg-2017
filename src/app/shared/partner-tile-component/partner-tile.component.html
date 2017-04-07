@@ -5,11 +5,11 @@
         <a href="#">{{app.organization.name}}</a>
       </h2>
     </stache-media>
+  </header>
+  <div class="partner-tile-body">
     <div class="partner-tile-tags">
       <span *ngFor="let tag of app.tags" class="partner-tile-tag"><i class="fa fa-tag" aria-hidden="true"></i>{{tag}}</span>
     </div>
-  </header>
-  <div class="partner-tile-body">
     <p class="partner-tile-description">
       {{app.description}}
     </p>

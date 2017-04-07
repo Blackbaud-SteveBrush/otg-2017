@@ -10,6 +10,9 @@
     <app-rating [value]="context.application.rating_total.value">
     </app-rating>
     <span class="rating-total" (click)="show()"> ({{ context.application.ratings.length }} reviews)</span>
+    <div class="partner-tile-tags">
+      <span *ngFor="let tag of context.application.tags" class="partner-tile-tag"><i class="fa fa-tag" aria-hidden="true"></i>{{tag}}</span>
+    </div>
     <p class="partner-app-detail-modal-description">
       {{context.application.description}}
     </p>
