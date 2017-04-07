@@ -10,6 +10,12 @@
   padding-bottom: 30px;
 }
 
+.stache-container {
+  width: 100% !important;
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+}
+
 .stache-hero-override {
   .stache-hero {
      background-position-y: -400px !important;
@@ -39,16 +45,17 @@
         font-size: 3.5em;
         font-family: 'Open sans';
         font-weight: 200;
+        line-height: 1;
       }
 
       h2.stache-hero-subheading {
         font-size: 1.5em;
         font-weight: 100;
+        margin: 12px 0 0;
 
         span.hero-bb-span {
           font-weight: 100;
         }
-
       }
 
       img {
@@ -60,4 +67,10 @@
   }
 }
 
+.stache-hero-overlay {
+  opacity: .55 !important;
+}
 
+#skypages-header {
+  display: none;
+}

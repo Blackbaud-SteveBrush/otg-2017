@@ -16,7 +16,8 @@ import { AddAppFormComponent } from './../shared/addapp-form-component/addapp-fo
 
 @Component({
   selector: 'my-apps',
-  templateUrl: './my-app-home.component.html'
+  templateUrl: './my-app-home.component.html',
+  styleUrls: ['./my-app-home.component.scss']
 })
 export class MyAppsHomeComponent implements OnInit {
   public myApps: Application[] = [];

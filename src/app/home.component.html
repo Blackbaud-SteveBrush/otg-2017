@@ -13,13 +13,8 @@
 </div>
 
 <sky-toolbar>
-  <div class="sky-container">
+  <div class="sky-container stache-container">
     <sky-toolbar-section>
-      <sky-toolbar-item>
-        <sky-filter-button
-          (filterButtonClick)="filterButtonClicked()">
-        </sky-filter-button>
-      </sky-toolbar-item>
       <sky-toolbar-item>
         <sky-search
           [placeholderText]="'Search the marketplace'"
@@ -27,13 +22,18 @@
           (searchApply)="searchApplied($event)">
         </sky-search>
       </sky-toolbar-item>
+      <sky-toolbar-item>
+        <sky-filter-button
+          (filterButtonClick)="filterButtonClicked()">
+        </sky-filter-button>
+      </sky-toolbar-item>
     </sky-toolbar-section>
   </div>
 </sky-toolbar>
 
 <stache>
   <stache-row>
-    <stache-column screenSmall="4" *ngFor="let app of displayedApps">
+    <stache-column screenSmall="3" *ngFor="let app of displayedApps">
       <app-partner-tile [app]="app" (openModal)="onOpenModal($event)">
       </app-partner-tile>
     </stache-column>

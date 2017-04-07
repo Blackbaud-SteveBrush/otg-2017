@@ -1,0 +1,9 @@
+/deep/
+.my-app-wrapper {
+  .partner-tile-description {
+    height: auto !important;
+    &:before {
+      display: none;
+    }
+  }
+}
