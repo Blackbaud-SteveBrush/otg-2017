@@ -10,7 +10,7 @@ import {
 
 import { AddAppFormComponent } from './shared/addapp-form-component/addapp-form.component';
 
-require('style!../styles/app.scss');
+require('style-loader!../styles/app.scss');
 
 // Specify entry components, module-level providers, etc. here.
 @NgModule({

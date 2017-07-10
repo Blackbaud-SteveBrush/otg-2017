@@ -31,7 +31,7 @@
   </div>
 </sky-toolbar>
 
-<stache>
+<stache layout="container">
   <stache-row>
     <stache-column screenSmall="3" *ngFor="let app of displayedApps">
       <app-partner-tile [app]="app" (openModal)="onOpenModal($event)">

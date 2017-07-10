@@ -14,12 +14,11 @@
   "author": "Blackbaud",
   "license": "ISC",
   "dependencies": {
-    "@blackbaud/skyux": "2.0.0-beta.16",
-    "@blackbaud/stache": "blackbaud/stache2"
+    "@blackbaud/skyux": "latest",
+    "@blackbaud/stache": "latest"
   },
   "devDependencies": {
-    "@blackbaud/skyux-builder": "blackbaud/skyux-builder",
-    "codelyzer": "2.0.0-beta.1"
+    "@blackbaud/skyux-builder": "latest"
   },
   "repository": {
     "type": "git",
